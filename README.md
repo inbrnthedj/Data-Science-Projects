@@ -1,64 +1,43 @@
 # Data Science & Analytics Portfolio
 
-Welcome to my central data science repository. This repository showcases a collection of end-to-end data analysis, exploratory data science, statistical modeling, and machine learning projects, ranging from independent practical applications to adapted capstones and guided coursework.
+A collection of end-to-end data analysis, exploratory data science, statistical modeling, and machine learning projects.
 
 ---
 
 ## 🛠️ Tech Stack & Tooling
 
-* **Languages:** Python (3.10+), SQL
-* **Data Manipulation & Analysis:** pandas, NumPy, Polars
-* **Visualization & Reporting:** Matplotlib, Seaborn, Plotly
-* **Machine Learning & Modeling:** scikit-learn, SciPy, Statsmodels
+* **Languages:** Python (3.14), SQL
+* **Data Manipulation & Analysis:** pandas, NumPy
+* **Visualization & Reporting:** Matplotlib, Seaborn
+* **Machine Learning & Modeling:** scikit-learn, SciPy
 * **Environment & Tools:** Jupyter Notebooks, Git/GitHub, VS Code
 
 ---
 
-## 📂 Featured Projects
+## 📂 Projects
 
-### Coursework & Guided Specializations
+* **[Bicycle Rental Prediction](./01_Bicycle-Rental-Prediction)** — Predicting daily bike rental demand in Washington D.C. using weather and calendar features.
+  * **Methods:** Exploratory Data Analysis, Correlation Analysis, Feature Engineering, Linear Regression.
+  * **Stack:** pandas, NumPy, Matplotlib, scikit-learn.
 
-* **[Bicycle Rental Prediction](./01_Guided-Projects/01_Bicycle-Rental-Prediction)**
-  * **Focus:** End-to-end data pipeline, predictive modeling, and model evaluation.
-  * **Stack:** pandas, Numpy, Matplotlib.
-  * **Attribution:** Adapted from coursework completed on Coursera. The implementation, code structure, feature adjustments, and insights presented are original work.
-
-* **[PROJECTNAME](./01_Guided-Projects/)**
-  * **Focus:** End-to-end data pipeline, predictive modeling, and model evaluation.
+<!--
+* **[Project Title](./02_Project-Name)** — Short description of problem and outcome.
+  * **Methods:** EDA, Feature Engineering, Model of choice.
   * **Stack:** pandas, scikit-learn, Matplotlib.
-  * **Attribution:** Adapted from coursework completed on Coursera. The implementation, code structure, feature adjustments, and insights presented are original work.
+-->
 
 ---
-
-### Personal Projects
-
-* **[Project Title 1](./02_Personal-Projects/)** — *Short 1-sentence descriptor of problem and outcome.*
-  * **Objective:** Predict/analyze [business problem/data challenge].
-  * **Methods:** Exploratory Data Analysis, Feature Engineering, Random Forest Regressor.
-  * **Key Takeaway:** Achieved $R^2 = 0.84$ with a 15% reduction in prediction error over the baseline.
-
-* **[Project Title 1](./02_Personal-Projects/)** — *Short 1-sentence descriptor of problem and outcome.*
-  * **Objective:** Extract and visualize patterns across [specific industry/domain].
-  * **Methods:** SQL Aggregations, Cohort Analysis, Interactive Dashboards.
-  * **Key Takeaway:** Identified key performance drivers and bottlenecks across large-scale transactional data.
-
----
-
 
 ## 📁 Repository Structure
 
 ```text
-├── projects/                  # Independent end-to-end data projects
-│   └── project-name/
-│       ├── data/              # Cleaned sample data / schema info
-│       ├── notebooks/         # Exploratory and analytical Jupyter notebooks
-│       ├── src/               # Reusable utility scripts and functions
-│       └── README.md          # Dedicated project overview and results
-├── guided-projects/           # Projects developed from guided specializations
-│   └── course-project-name/
-│       ├── notebooks/
-│       └── README.md
-├── requirements.txt           # Shared Python dependencies
+├── 01_Bicycle-Rental-Prediction/
+│   ├── Bikes.ipynb         # Main analysis notebook
+│   ├── SOURCE.md           # Data source documentation
+│   ├── README.md           # Project overview
+│   ├── day.csv             # Daily aggregated dataset
+│   └── hour.csv            # Hourly aggregated dataset
 ├── .gitignore
-├── LICENSE                    # MIT License
-└── README.md
+├── LICENSE                 # MIT License
+└── README.md               # This file
+```
